@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Home Link Fix</name>
+    <code>opencart-home-link-fix</code>
+    <version>1.0</version>
+    <author>Dmytro Sokolenko</author>
+    <link>https://github.com/SDG1212</link> 
+    <file path="catalog/controller/startup/seo_url.php"> 
+        <operation>
+            <search trim="true"><![CDATA[
+                if ($url) {
+            ]]></search>
+            <add position="replace" trim="true"><![CDATA[
+                if ($url || $data['route'] == 'common/home') {
+            ]]></add>
+        </operation>
+    </file>
+</modification>
