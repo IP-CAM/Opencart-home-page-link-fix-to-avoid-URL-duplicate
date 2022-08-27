@@ -1,5 +1,5 @@
 <h2>Overview</h2>
-<p>Opencart Home Page Link Fix to avoid dublicate URLs: "/" and "index.php?route=common/home".</p>
+<p>Opencart Home Page Link Fix to avoid duplicate URLs: "/" and "index.php?route=common/home".</p>
 <h2>Donate</h2>
 <p><b>PayPal</b><br><a href="https://www.paypal.com/donate/?business=XY9NY34MQP9XW&no_recurring=0&item_name=Thanks+for+your+support%21+I+will+keep+doing+good+job.&currency_code=USD">Shareable Link</a></p>
 <p><b>BTC (Bitcoin)</b><br>1KFQbt5LrTfRH1FaHEzQGcSsmTYPDjf7xo</p>
